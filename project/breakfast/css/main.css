@@ -1,6 +1,9 @@
+html,
 body {
+    width:100%;
     max-width:100%;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New';
     font-size: 110%;
@@ -105,6 +108,24 @@ img {
 .bacon-egg-direct {
     padding-right: 50px;
 }
+
+.gallery{
+    margin:10px 50px;
+    align-items: initial;
+    text-align: center;
+  }
+  .gallery img{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(0%);
+  transition: 1s;
+  text-align: center;
+  }
+  .gallery img:hover {
+    filter:grayscale(0);
+    transform: scale(1.1);
+  }
+  
 .nutella-heading {
     padding-top: 100px;
     font-weight: lighter;
