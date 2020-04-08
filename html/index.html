@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home - Lexi's Blog</title>
+        <link rel="shortcut icon" href="../images/pawprint.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lexi">
+        <meta name="description" content="Lexi writes a blog">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+
+    <body>
+        <!-- Navigation. -->
+        <header class="cm-header cm-border-bottom">
+            <nav class="cm-main-navbar">
+                <ul class="cm-main-list">
+                    <li class="cm-navbar-list-item">
+                        <a class="cm-main-navbar-link" href="#">Home</a>
+                    </li>
+                    <li class="cm-navbar-list-item">
+                        <a class="cm-main-navbar-link" href="#">Food</a>
+                    </li>
+                    <li class="cm-navbar-list-item">
+                        <a class="cm-main-navbar-link" href="#">Toys</a>
+                    </li>
+                    <li class="cm-navbar-list-item">
+                        <a class="cm-main-navbar-link" href="#">Activities</a>
+                    </li>
+                    <li class="cm-navbar-list-item">
+                        <a class="cm-main-navbar-link" href="#">Gallery</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main section of the website -->
+        <main>
+
+            <div>
+                <div>
+                    <h1>My name is Lexi and this is my Blog</h1>
+                   
+                    <img src="../images/lexinoseboop.jpg" alt="Lexi" width="350" height="400" class="Lexi">
+
+                    <div class="">
+                        <h2>Welcome to my aka Lexi's first blog. Woof woof!!</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <section>
+                <div class="">
+                    <h3>About me.</h3>
+                    <p>
+                        My name is Lexi and I'm 2,5 years old (that's in human years!).
+                    </p>
+                    <p>
+                        I've decided to write this blog with my own paws cause it's winter 
+                        and I'm spending less time outside. I wanted to share my experience with other dogs 
+                        and maybe other pets trapped indoors by the horrible weather. 
+                        <em>You're not alone pooches!</em>
+                    </p>
+                </div>
+            </section>
+
+
+
+            <article>
+                <div class="">
+                    <h3>About my owners (cause they're important too!).</h3>
+
+                    <p>My owners are the best and here's few reasons why:</p>
+
+                    <ol>
+                        <li>they feed me (food is the best thing in the world!)</li>
+                        <li>they teach me tricks (i get food for them sometimes)</li>
+                        <li>they love me (eventhough I steal their socks)</li>
+                    </ol>
+
+
+
+                    <p>So what is your favourite thing to munch on? (Pick at least one)</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Thing</th>
+                                <th>Like!</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>A nice bone</td>
+                                <td>
+                                    <input type="checkbox" name="checkbox1" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mummy's slipper</td>
+                                <td>
+                                    <input type="checkbox" name="checkbox2" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tasty snack</td>
+                                <td>
+                                    <input type="checkbox" name="checkbox3" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sock</td>
+                                <td>
+                                    <input type="checkbox" name="checkbox4" value="">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </article>
+
+            <section>
+                <div>
+                    <h4>Check few snaps of me having fun and snoozing (isn't snoozing the best!!)</h4>
+                <div class="row">
+                    <div class="column">
+                        <img src="../images/lexisnow.jpg" alt="Snow Lexi" width="330" height="400" class="img1">
+                    </div>
+                    <div class="column">
+                        <img src="../images/lexiwet.jpg" alt="Wet Lexi" width="300" height="400" class="img2">
+                    </div>
+                    <div class="column">
+                        <img src="../images/lexiwet2.jpg" alt="More wet Lexi" width="300" height="400" class="img3">
+                    </div>
+                    <div class="column">
+                        <img src="../images/lexiglasses.jpg" alt="Lexi in glasses" width="350" height="400" class="img4">
+                    </div>
+                    <div class="column">
+                          <img src="../images/lexisleeping.jpg" alt="Sleeping Lexi" width="280" height="400" class="img5">
+                    </div>
+                </div>
+
+                </div>
+            </section>
+
+            <aside>
+                <div class="">
+                    <div class="">
+                        <h3>
+                            If you want to tell me about your adventures, write it here:
+                        </h3>
+                        <div>
+                            <!-- We'll put something here later -->
+                            <canvas id="drawingCanvas" width="600" height="300">
+                                <noscript>
+                                    <em>You'd be having more fun with Javascript enabled!</em>
+                                </noscript>
+                            </canvas>
+                            <br>
+                            <button id="canvasClearButton" type="button" name="button">Clear</button>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <form action="mailto:ewakonopka85@gmail.com" method="post" enctype="text/plain">
+                            <h3>If you want to talk to me directly, please fill this form (I'll reply when
+                                I'm not busy eating snacks):</h3>
+                            <fieldset>
+                                <legend>Your details</legend>
+                                <div>
+                                    <label for="name">Name</label>
+                                    <input id="name" type="text" name="name" value="">
+                                </div>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input id="email" type="text" name="email" value="">
+                                </div>
+                                <div>
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="8" cols="80"></textarea>
+                                </div>
+                                <input type="submit" name="" value="submit">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+
+
+            <!-- This bit down here will be the footer -->
+            <footer>
+
+                <div class="address">
+                    <h4>Address:</h4>
+                    <address>
+                        <pre>
+                        Lexi
+                        Kitchen or Sofa
+                        Wakefield
+                        UK
+                        </pre>
+
+                    </address>
+                </div>
+
+                <div class="">
+                    <h4>Email:</h4>
+                    <p>lexithedog@gmail.com</p>
+                </div>
+
+                <div class="">
+                    <h4>Social Media:</h4>
+
+                    <p>Currently I don't own Instagram or Twitter cause I'm too busy playing
+                        in puddles but be patient, I'll share my adventures on there too!
+                    </p>
+                    
+                </div>
+
+            </footer>
+    </body>
+
+</html>
